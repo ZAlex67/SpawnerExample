@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 1402940394}
   - component: {fileID: 1402940393}
   m_Layer: 0
-  m_Name: Spawner1
+  m_Name: Spawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -444,8 +444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a6e733ae201c84e826a86b7a046d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnObject: {fileID: 2662131792339578937, guid: 51f3fe3ccbeb6f84ea39937955230f9b, type: 3}
-  _timeSpawn: 2
+  _spawnObject: {fileID: 3441493036838680901, guid: 4165a760152deb84fba6b01ddaf6cfe1, type: 3}
+  _delay: 2
 --- !u!4 &1402940394
 Transform:
   m_ObjectHideFlags: 0
