@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5a6e733ae201c84e826a86b7a046d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnObject: {fileID: 3441493036838680901, guid: 4165a760152deb84fba6b01ddaf6cfe1, type: 3}
+  _enemy: {fileID: -2420685688177671693, guid: 4165a760152deb84fba6b01ddaf6cfe1, type: 3}
   _delay: 2
 --- !u!4 &1402940394
 Transform:
