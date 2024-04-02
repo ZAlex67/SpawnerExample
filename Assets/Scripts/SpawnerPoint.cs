@@ -1,32 +1,21 @@
-using System.Collections;
 using UnityEngine;
 
 public class SpawnerPoint : MonoBehaviour
 {
-    [SerializeField] private float _delay;
-    [SerializeField] private Spawner[] _spawnerPoints;
-    [SerializeField] private int _enemyCount;
+    [SerializeField] private Enemy _enemy;
+    [SerializeField] private Player _player;
 
-    private void Start()
+    private Enemy _newEnemy;
+
+    //«адаем цель врагу (у каждого спавнера сво€ цель)
+    private void Update()
     {
-        StartCoroutine(Spawn(_delay));
+        if (_newEnemy != null)
+            _newEnemy.SetPlayer(_player);
     }
 
-    private IEnumerator Spawn(float delay)
+    public void Spawn()
     {
-        var wait = new WaitForSeconds(_delay);
-
-        for (int i = 0; i < _enemyCount; i++)
-        {
-            var _newPoint = _spawnerPoints[RandomPosition()];
-            _newPoint.Clone();
-
-            yield return wait;
-        }
-    }
-
-    private int RandomPosition()
-    {
-        return Random.Range(0, _spawnerPoints.Length);
+        _newEnemy = Instantiate(_enemy, transform.position, Quaternion.identity);
     }
 }

@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 77
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -662,9 +662,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.7544327, y: 3.2522545, z: 26.407454}
+    m_Target: {x: 2.693675, y: 8.86692, z: 22.421124}
     speed: 2
-    m_Value: {x: -6.7544327, y: 3.2522545, z: 26.407454}
+    m_Value: {x: 2.693675, y: 8.86692, z: 22.421124}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -710,13 +710,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.22586371, y: 0.6556911, z: -0.21540883, w: -0.68753535}
+    m_Target: {x: -0.22726034, y: 0.6754174, z: -0.23181112, w: -0.66217935}
     speed: 2
-    m_Value: {x: -0.22585794, y: 0.65567434, z: -0.21540333, w: -0.6875178}
+    m_Value: {x: -0.22725421, y: 0.67539924, z: -0.23180488, w: -0.6621615}
   m_Size:
-    m_Target: 54.36484
+    m_Target: 36.10092
     speed: 2
-    m_Value: 54.36484
+    m_Value: 36.10092
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -778,23 +778,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 105b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2cfbffff
+      m_ExpandedIDs: 2cfbffffd85a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Waypoint
+        m_OriginalName: Waypoint
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -15066
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -1053,7 +1053,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1061,15 +1061,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\MyUnityProject\SpawnerExample
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 3}
-    m_SelectedIDs: 8c5b0000
-    m_LastClickedID: 23436
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 885b0000
+    m_LastClickedID: 23432
     m_ExpandedIDs: 000000007c5b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1150,7 +1150,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 27.600037}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -1224,7 +1224,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -1250
+  m_LastSelectedObjectID: -1248
 --- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
