@@ -18,14 +18,13 @@ public class Spawner : MonoBehaviour
 
         for (int i = 0; i < _enemyCount; i++)
         {
-            var _newPoint = _spawnerPoints[RandomIndex()];
-            _newPoint.Spawn();
+            _spawnerPoints[GetRandomIndex()].Spawn();
 
             yield return wait;
         }
     }
 
-    private int RandomIndex()
+    private int GetRandomIndex()
     {
         return Random.Range(0, _spawnerPoints.Length);
     }
